@@ -66,23 +66,32 @@ background-color: lightblue;
 }
 
 .facebook{
-  width: 3.5rem;
+  width: 4rem;
   position: absolute;
-  left: 5.5rem;
-  top: 17.7rem
+  left: 5.2rem;
+  top: 17.6rem;
+  border-radius: 1.5rem;
+}
+.facebook:hover{
+  background-color: white;
+  border-radius: 5rem;
 }
 .instagram{
   width: 4rem;
   position: absolute;
-  left: 8.5rem;
-  top: 17rem;
+  left: 8.7rem;
+  top: 17.15rem;
+}
+.instagram:hover{
+  background-color: white;
+  border-radius: 50rem;
+  width: 2.5rem;
 }
 .linkedin{
   width: 2rem;
   position: absolute;
   left: 13.5rem;
   top: 18rem;
-  
 }
 .whatsapp{
   width: 2.7rem;
@@ -90,7 +99,7 @@ background-color: lightblue;
   left: 3rem;
   top: 22rem;
   background-color: black;
-  border-radius: 0.9rem;
+  border-radius: 1rem;
 
 }
 .bumble{
@@ -99,15 +108,13 @@ background-color: lightblue;
   position: absolute;
   left: 7rem;
   top: 22rem;
-  border-radius: 0.9rem;
+  border-radius: 1rem;
   
 }
-
-
 .pinterest{
   width: 2.5rem;
   height: 2.5rem;
-  border-radius:0.5rem;
+  border-radius:1rem;
   position: absolute;
   left: 11rem;
   top: 22rem;
@@ -119,5 +126,14 @@ background-color: lightblue;
   border-radius: 0.9rem;
   position: absolute;
   left: 26rem;
+  top: 18.5rem;
+}
+.search{
+  text-align: center;
+  width: 189px;
+  height: 36px;
+  border-radius: 0.9rem;
+  position: absolute;
+  left: 17.5rem;
   top: 18.5rem;
 }
